@@ -10,7 +10,7 @@ def main():
 
     while True:  
         display_menu()  
-        choice = input("Enter your choice: ")  
+        choice = input("Enter your choice (1-4): ")  
 
         if choice == '1':  
             item = input("Enter the item to add: ").strip()  
@@ -41,7 +41,7 @@ def main():
             break  
 
         else:  
-            print("Invalid choice. Please try again.")  
+            print("Invalid choice. Please enter a number between 1 and 4.")  
 
 if __name__ == "__main__":  
     main()
